@@ -1,6 +1,6 @@
 /* Reflow Reader service worker: offline shell + share target.
    Bump VERSION when you change index.html so installed copies refresh. */
-const VERSION = 'v3';
+const VERSION = 'v4';
 const SHELL = 'reader-shell-' + VERSION;
 const LIB = 'reader-lib'; // user's saved PDFs; never purged on updates
 const PDFJS = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/';
